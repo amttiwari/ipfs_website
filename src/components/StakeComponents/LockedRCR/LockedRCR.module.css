@@ -1,0 +1,49 @@
+.lockedrcr {
+    background-color: #f8f8f8;
+    height: 100%;
+    box-shadow: 0 2px 3px 1px rgba(0,0,0,.1);
+}
+
+.listheader {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 40px;
+    min-height: 40px;
+    width: 100%;
+    background-color: #f3eac9;
+}
+
+.tableheader {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f3eac9;
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+}
+
+.tableheader div {
+    width: 150px;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.listcontent {
+    height: 100%;
+    width: 100%;
+    margin-top: 1em;
+    padding-right: 3em;
+}
+
+.headerspan {
+    padding-left: 1em;
+    font-weight: 600;
+    font-family: 'Cinzel';
+}
+
+.not_connected {
+    text-align: center;
+}

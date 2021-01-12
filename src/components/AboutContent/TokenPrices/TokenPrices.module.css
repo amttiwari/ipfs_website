@@ -1,0 +1,31 @@
+.main {
+    margin-left: 2em;
+}
+
+table {
+    width: 300px;
+}
+
+.table_header {
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 20px;
+    overflow-y: auto;
+    letter-spacing: 1px;
+}
+
+.table_body {
+    height: 40px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.green {
+    color: #41ad0d !important;
+}
+
+.red {
+    color: #e44b44 !important;
+}

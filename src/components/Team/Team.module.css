@@ -1,0 +1,77 @@
+.card {
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-width: thin;
+    display: inline !important;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    overflow-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    margin-right: 2em;
+    max-height: 380px;
+}
+
+.teambody {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .divider {
+    border-right: 1px solid rgba(0,0,0,.12);
+    margin: 0px 2em 0px 1em;
+} */
+
+.explanation {
+    margin-top: 2em;
+    font-size: 0.95em;
+}
+
+.card img {
+    width: 100%;
+}
+
+.cardbody {
+    padding: 1em;
+}
+
+.title {
+    margin-bottom: 1em;
+}
+
+.caption {
+    line-height: 1.25rem;
+    font-size: 0.75rem !important;
+    margin: 0;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1570px) {
+    .teambody {
+        flex-direction: column;
+    }
+    .card {
+        max-height: 600px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .card {
+        margin-bottom: 1em;
+        width: 13em;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    .card {
+        width: 100%;
+        margin-right: 0;
+    }
+    .card img {
+        height: 300px;
+    }
+}

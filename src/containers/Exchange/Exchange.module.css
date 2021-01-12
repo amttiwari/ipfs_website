@@ -1,0 +1,40 @@
+.exchangeContainer {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  grid-gap: 20px;
+}
+
+.priceChart {
+  grid-column: span 5;
+}
+
+.createOrder {
+  grid-column: span 2;
+}
+
+.myOrders {
+  grid-column: span 3;
+}
+
+.orderBook {
+  grid-column: span 2;
+}
+
+.fullRow {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .exchangeContainer {
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+  }
+  .priceChart,
+  .createOrder,
+  .myOrders,
+  .orderBook {
+    grid-column: span 1;
+  }
+}

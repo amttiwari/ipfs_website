@@ -1,0 +1,69 @@
+.priceChartTopBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceChartInfo {
+  display: flex;
+}
+
+.priceChartInfo > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.priceTagInput {
+  margin-left: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 3px;
+  align-items: flex-end;
+}
+
+.priceTagInputButton:focus {
+  outline: none !important;
+}
+
+.priceChartAdditionalInfo {
+  margin: 0 0 20px;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.additionalInfoBox {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.additionalInfoBox:last-of-type {
+  margin-right: 0;
+}
+
+.blue {
+  color: #069;
+}
+
+.green {
+  color: #096;
+}
+
+.red {
+  color: #900;
+}
+
+@media only screen and (max-width: 600px) {
+  .priceChartTopBar {
+    align-items: center;
+  }
+  .priceChartInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .priceTagInput {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,54 @@
+.monthsdiv {
+    margin-top: 10px;
+}
+
+.monthsdiv>div:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+
+.lockinput {
+    width: 220px;
+    height: 40px;
+    padding-right: 85px;
+    outline: none;
+    background-color: #212529;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    color: #f4e4a8;
+}
+
+.lockinput:focus {
+    border: 1px solid #e99227;
+}
+
+.innerlabel {
+    position: absolute;
+    padding: 5px;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    font-size: 17px;
+    justify-content: center;
+    height: 40px;
+    color: #f4e4a8;
+    width: 50px;
+    right: 20px;
+}
+
+.innerlabel span {
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}

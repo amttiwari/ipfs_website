@@ -1,0 +1,19 @@
+.textField {
+  display: grid !important;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+}
+
+.textField label {
+  font-size: small;
+}
+
+.textField input {
+  box-shadow: none !important;
+  border: 1px solid #bbb;
+  font-size: small !important;
+}
+
+.textField input:focus {
+  border-color: #137cbd;
+}

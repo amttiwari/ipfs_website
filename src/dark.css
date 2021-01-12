@@ -1,0 +1,48 @@
+.darkTheme .bp3-card {
+    background-color: #242a30;
+    }
+
+    .darkTheme .bp3-running-text table td, table.bp3-html-table td {
+    color: #fff;
+}
+.darkTheme .Button_Button__3gFiX .fa-bars{
+	color:#fff
+}
+
+.darkTheme .bp3-tab{
+	color: #fff;
+}
+.darkTheme{
+	background-color: #242a30;
+}
+.darkTheme .SideDrawer_SideDrawer__3kXLK{
+background-color: #242a30;	
+}
+.darkTheme .Header_Header__2PA5r{
+    background-color: #242a30;
+}
+.darkTheme .container{
+    background: #242a30;
+    color: #fff;
+}
+.darkTheme .appwrap{
+    background: #242a30;
+    color: #fff;
+}
+.darkTheme canvas{
+    background: #242a30de;
+}
+.darkTheme .AboutContent_aboutContent__CnG24,.darkTheme .Balances_balances__21Ljt,.darkTheme .Wrapper_stake__pSHio,.darkTheme 
+.LockedRCR_lockedrcr__3fKpG, .darkTheme .card, .darkTheme .Button_Menu__1FmOX,.darkTheme .Logo_Logo__1N0xH{
+    background-color: transparent;
+
+}
+
+.darkTheme td ,.darkTheme .AboutContent_subtitle__38s3p{
+    color: #fff !important;
+  }
+
+  .darkTheme .Balances_headerspan__281GI, .darkTheme .Wrapper_stakeheader__3HlT1, .darkTheme .LockedRCR_listheader__3QxiJ,
+  .darkTheme .LockedRCR_tableheader__2GpjD{
+      color: #242a30de;
+  }

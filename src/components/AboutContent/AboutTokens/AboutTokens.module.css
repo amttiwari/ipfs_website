@@ -1,0 +1,23 @@
+.tokenlinks {
+    align-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+.tokenlinks a {
+    margin: 0.5em;
+}
+
+.tokenlinks a:hover {
+    color: #fcfcfc;
+}
+
+
+@media (max-width: 570px) {
+    .tokenlinks {
+        flex-wrap: wrap;
+    }
+}

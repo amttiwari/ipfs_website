@@ -1,0 +1,25 @@
+.monthdiv div:first-of-type {
+    height: 55px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    background-color: #f3de94;
+    cursor: pointer;
+}
+
+.monthdiv div:nth-of-type(2) {
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.monthdiv {
+    opacity: .5;
+    transition: opacity .19s linear;
+}
+
+.rate {
+    background-color: #f5eed5;
+}

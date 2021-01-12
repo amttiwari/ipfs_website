@@ -1,0 +1,29 @@
+.textwithIcon {
+    width: 50%;
+    height: 100%;
+}
+
+.tokenimg {
+    max-height: 125px;
+    margin-right: 10px;
+    height: 50%;
+}
+
+.tokenimg img {
+    width: auto;
+    height: 100%;
+}
+
+.tokentext {
+    height: 70px;
+}
+
+.tokentextup {
+    width: 100%;
+    font-size: 20px;
+}
+
+.tokentextdown {
+    width: 100%;
+    font-size: 35px;
+}

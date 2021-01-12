@@ -1,0 +1,93 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+.card {
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-width: thin;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    transition-property: box-shadow,opacity;
+    overflow-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 16px;
+    margin: 1em;
+    width: 100%;
+    font-size: 0.95em;
+}
+
+.card:hover {
+    background: rgba(0,0,0,.05);
+    cursor: pointer;
+}
+
+.container h1 {
+    font-weight: 600;
+    font-size: 46px;
+    letter-spacing: 1px;
+    line-height: 63px;
+}
+
+.title {
+    margin-bottom: 1em;
+}
+
+.subtitle {
+    margin-bottom: 0 !important;
+    font-size: 1.5em !important;
+}
+
+.container h2 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .2px;
+    line-height: 32px;
+    margin: 0px auto;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+    color: #5f332a;
+    margin-bottom: 0.5em;
+}
+
+.caption {
+    text-align: left;
+}
+
+.finished {
+    background: rgba(0,200,0,0.05);
+}
+
+.finished:hover {
+    background: rgba(0,200,0,0.1);
+}
+
+
+
+@media (max-width: 1300px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+}

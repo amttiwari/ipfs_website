@@ -1,0 +1,8 @@
+.listitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+    align-items: center;
+    margin-bottom: 1em;
+}

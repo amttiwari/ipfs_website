@@ -1,0 +1,40 @@
+.tableContainer,
+.tableContainer table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.tableContainer {
+  overflow: auto;
+  max-height: 250px;
+}
+
+.tableContainer table,
+.tableContainer th,
+.tableContainer td {
+  box-shadow: none !important;
+}
+
+.tableContainer table {
+  border-collapse: unset;
+}
+
+.tableContainer th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 10px 5px !important;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  font-size: smaller;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tableContainer th:last-of-type {
+  border-right: 0;
+}
+
+.tableContainer td {
+  padding: 5px !important;
+}

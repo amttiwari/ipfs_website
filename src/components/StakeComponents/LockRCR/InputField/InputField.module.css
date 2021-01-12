@@ -1,0 +1,17 @@
+.inputamountdiv {
+    display: inline-flex;
+    position: relative;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    padding: 13px 0;
+}
+
+.inputamountlabel {
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #e99227;
+    color: white;
+    justify-content: flex-start;
+}

@@ -1,0 +1,14 @@
+.Logo {
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.Logo img {
+    width: 330px;
+}
+
+@media screen and (max-width: 745px) {
+    .Logo img {
+        width: 300px;
+    }
+}

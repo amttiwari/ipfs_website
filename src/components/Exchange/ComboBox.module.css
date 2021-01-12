@@ -1,0 +1,11 @@
+.comboBox {
+}
+.comboBox button {
+  width: 150px !important;
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.comboBox button:focus {
+  outline: none;
+}

@@ -1,0 +1,59 @@
+.block {
+    height: 900px;
+    width: 40%;
+}
+
+.leftblock {
+    margin-right: 2em;
+}
+
+.rightblock {
+    min-width: 600px;
+}
+
+
+
+
+@media screen and (min-height: 1150px) {
+    .block {
+        height: 1100px;
+    }
+}
+
+
+@media screen and (max-height: 1000px) {
+    .block {
+        height: 800px;
+    }
+}
+
+
+@media screen and (max-width: 1100px), screen and (max-height: 900px){
+    .stakebody {
+        margin: 0px auto;
+        flex-direction: column;
+    }
+
+    .block {
+        width: 95%;
+    }
+
+    .leftblock {
+        margin-right: 0;
+    }
+
+    .rightblock {
+        min-width: auto;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .leftblock {
+        width: 100%;
+    }
+    
+    .rightblock {
+        width: 100%;
+    }
+}

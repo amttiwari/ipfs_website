@@ -1,0 +1,46 @@
+.Content {
+    height: calc(100vh - 2em);
+    padding: 64px 0px 0px 256px;
+    transition: all 0.5s ease-out;
+}
+
+.contentwrapper {
+    margin-top: 2em;
+    /* padding-right: 256px; */
+    height: 100%;
+}
+
+.Open {
+    
+}
+
+.Close {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.contentWithoutDrawer {
+    padding-left: 0;
+    /* margin: 0px auto; */
+}
+
+.scrollUpArrow {
+    cursor: pointer;
+    font-size: 2.5em;
+    color: #e99227;
+    position: fixed;
+    bottom: 2.5%;
+    right: 2.5%;
+    
+}
+.scrollUpArrow:hover {
+    color: #e7a92c;
+    font-size: 2.6em;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .contentwrapper {
+        padding-right: 0px;
+    }   
+}

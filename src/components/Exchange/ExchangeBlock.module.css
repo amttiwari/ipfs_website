@@ -1,0 +1,11 @@
+.exchangeBlock > h3,
+.exchangeBlock > .bp3-tabs > .bp3-tab-list {
+  margin-bottom: 20px;
+}
+
+.exchangeBlock h3 {
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0;
+  font-weight: bold;
+}

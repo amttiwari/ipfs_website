@@ -1,0 +1,125 @@
+.Toastify__toast-container{
+  width:auto !important;
+}
+
+.bp3-callout.bp3-intent-primary.bp3-callout-icon.Exchange_fullRow__2PTGt{
+  display: none
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex-row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f4e4a8;
+}
+
+.telegram {
+  background: gray;
+}
+.telegram:hover {
+  background: rgba(0, 136, 204, 0.794);
+}
+
+.discord {
+  background: gray;
+}
+.discord:hover {
+  background: #7289da;
+}
+
+.twitter {
+  background: gray;
+}
+.twitter:hover {
+  background: #1da1f2;
+}
+
+.appwrap {
+  flex: 1 1 auto;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+}
+
+a:hover {
+  color: none !important;
+  text-decoration: none !important;
+}
+
+.selected {
+  opacity: 1;
+}
+
+.web3modal-modal-lightbox {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Toastify__toast-container {
+  top: 5;
+}
+
+.modal-header button:focus {
+  outline: none;
+}
+
+.card-img-top:hover {
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+@import "../node_modules/@blueprintjs/core/lib/css/blueprint.css";
+@import "../node_modules/@blueprintjs/select/lib/css/blueprint-select.css";
+
+.bp3-tab:focus {
+  outline: none !important;
+}
+
+.bp3-tooltip {
+  font-size: small;
+}
+.Tokenomics_headertext__1WlZK{
+  margin-left: 136px;
+}
+td{
+  color: #000 !important;
+}
+.Header_connect_meta__3yQP9{
+  width: 134px;
+}
+
+
+.react-ripples{
+  width: 100%;
+}
